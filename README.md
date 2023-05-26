@@ -15,3 +15,6 @@ Lab using freeswitch to talk to OpenAI GPT
 # Installation
 
 1. `compile and install deps/mod_audio_fork`
+2. `add module mod_audio_fork.so to freeswitch/autoload_configs/modules.xml.conf`
+3. `npm install`
+4. `npm run serve`
