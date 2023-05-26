@@ -7,13 +7,14 @@
 
 (def openai-token (or js/process.env.OPENAI_API_KEY (throw (js/Error. "requires environment var OPENAI_API_KEY"))))
 
-(deftest openai
+(deftest openai-transcribe
   (testing "transcribe audio"
     (async done
            (-> (p/let [data (fs/readFileSync "hello.wav")
                       transcription (openai->speech-to-text "whisper-1" data openai-token)]
                 (is (= "Hello." transcription)))
-               (p/finally done))))
+               (p/finally done)))))
+(deftest openai-chat
   (testing "chat with gpt"
     (async done
            (-> (p/let [chat (openai->create-chat openai-token)
