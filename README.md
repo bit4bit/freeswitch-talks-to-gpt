@@ -6,11 +6,11 @@ Lab using freeswitch to talk to OpenAI GPT
 
 1. `answer call`
 2. `fork audio to service`
-   1. `uses vad to cut the audio`
-   2. `send audio fragment to ASR`
-   3. `send text to OpenAI GPT`
-   4. `send response to TTS`
-   4. `playback audio TTS`
+   - [X] `uses VAD to split the audio`
+   - [X] `send audio fragment to ASR`
+   - [X] `send text to OpenAI GPT`
+   - [ ] `send response to TTS`
+   - [ ] `playback audio TTS`
 
 # Installation
 

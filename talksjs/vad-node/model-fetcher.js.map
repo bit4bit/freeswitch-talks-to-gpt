@@ -1,0 +1,1 @@
+{"version":3,"file":"model-fetcher.js","sourceRoot":"","sources":["../src/model-fetcher.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;AAAA,gDAAiC;AAEjC,MAAM,SAAS,GAAG,GAAG,SAAS,kBAAkB,CAAA;AAEzC,MAAM,YAAY,GAAG,KAAK,IAA0B,EAAE;IAC3D,MAAM,QAAQ,GAAG,MAAM,EAAE,CAAC,QAAQ,CAAC,SAAS,CAAC,CAAA;IAC7C,OAAO,QAAQ,CAAC,MAAM,CAAA;AACxB,CAAC,CAAA;AAHY,QAAA,YAAY,gBAGxB"}
